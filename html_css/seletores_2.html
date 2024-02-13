@@ -1,0 +1,69 @@
+<html>
+    <head>
+        <title>Seletores #02</title>
+        <style>
+            body {
+                background-color: black;
+                color: white;
+            }
+
+            div:nth-child(even) {
+                background-color: rebeccapurple;
+            }
+
+            div:nth-child(odd) {
+                background-color: plum;
+            }
+
+            div:hover {
+                background-color: purple;
+            }
+
+            input:focus {
+                outline: none;
+                border: 2px solid orangered;
+                border-radius: 2px;
+            }
+            
+            p::first-letter {
+                font-size: 50px;
+            }
+
+            p::first-line {
+                font-weight: bold;
+            }
+        </style>
+    </head>
+    <body>
+        <h2>Seletores de Pseudo-Classes</h2>
+        <div>A</div>
+        <div>B</div>
+        <div>C</div>
+        <input type="text">
+
+        <h2>Seletores de Pseudo-Elementos</h2>
+        <p>
+
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
+            ultrices mauris quis lacus euismod, nec suscipit velit rutrum. Donec
+            et tortor et libero venenatis placerat. Pellentesque ipsum nibh,
+            mattis a massa sed, posuere mollis turpis. Interdum et malesuada
+            fames ac ante ipsum primis in faucibus. Ut ornare ante eu molestie
+            feugiat. Nam sodales nunc sit amet dui commodo, ac eleifend sem
+            iaculis. Cras interdum orci ut egestas porta. Aenean ultrices tellus
+            vel lorem dignissim mollis. Sed pulvinar sapien eget dui efficitur,
+            a posuere tortor blandit.
+        </p>
+        <p>
+            Donec blandit nisi arcu, eu cursus ante
+            blandit non. Phasellus quis egestas ex. Phasellus a sapien eros.
+            Aliquam luctus posuere tellus. Phasellus tincidunt sapien non lorem
+            sagittis dapibus. Aliquam a tempor neque, non rhoncus sem. Sed porta
+            nulla eu dictum porttitor. In sodales, dui sed congue condimentum,
+            purus metus porttitor velit, id tincidunt lectus felis vitae enim.
+            Sed ac pulvinar lacus. Sed viverra mi mauris, quis luctus leo mattis
+            nec.
+        </p>
+
+    </body>
+</html>
